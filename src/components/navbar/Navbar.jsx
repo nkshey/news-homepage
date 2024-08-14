@@ -18,7 +18,7 @@ function Navbar() {
   }, []);
 
   return (
-    <header className="fixed left-0 top-0 w-full bg-off-white px-4 py-7 shadow-lg sm:static sm:mb-7 sm:bg-none sm:p-0 sm:shadow-none lg:mb-[3.375rem]">
+    <header className="fixed left-0 top-0 w-full bg-[#fffdfa] px-4 py-7 shadow-lg sm:static sm:mb-7 sm:bg-opacity-0 sm:p-0 sm:shadow-none lg:mb-[3.375rem]">
       <nav className="flex items-center justify-between">
         <Logo />
         {isDesktop ? <DesktopNavbar /> : <MobileNavbar />}
