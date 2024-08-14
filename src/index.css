@@ -1,7 +1,6 @@
 @font-face {
   font-family: "Inter";
-  src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf")
-    format("truetype");
+  src: url("../public/assets/fonts/InterFont.ttf") format("truetype");
 }
 
 @tailwind base;
